@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed;" >
+        <div class="container-fluid" style="position: fixed; margin-top: 40px; background-color: #f7f8f8;">
+          <a class="navbar-brand" href="#"> <img src="img/olx-1.png" width="80" height="70"  style="color: #f7f8f8;"></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                <div style="border: 3px solid black;; width: 280px;height: 52px; margin-bottom: 10px; margin-top: -10px;" >  <i class="fa fa-search"></i>
+                  <select name="provinces" id="provinces" style="width: 200px;height: 30px; border:none; background-color:  #f7f8f8;" >
+           
+                      <option value="Pakistan"><i class="fa fa-search"></i> Pakistan</option>
+                      <option value="Punjab">Punjab</option>
+                      <option value="Islamabad">Islamabad</option>
+                      <option value="Sindh">Sindh</option>
+                    </select></a></div>
+              </li>
+              <!-- <li class="nav-item"> -->
+                <div style="border: 1px  solid black; width: 400px; height: 52px;margin-top: 5px; background-color: black; margin-left: 10px; margin: 10px;">
+                <a class="nav-link" href="#"><input type="search" placeholder="Find Cars,Mobile Phone and more..." style="border: 2px solid black; width: 350px;height:50px; padding: 10px; margin-top: -80px; margin-left: -10px;" >
+                 <i class="fa fa-search" style="width: 20px; height: 20px;  margin-top: -10px; padding-right: 20px; color: #f7f8f8;"></i></button> 
+                 </div>
+          <div>
+            <a href="#" style="color:black; margin-left: -10px; color: rgb(0, 47, 52); font-size: 22px;"> <b>Login</b></a>
+          </div>
+          <div class="btn">
+            <button id="btn-2">+ SELL</button>
+          </div>
+        </div>
+                              </li>
+                                   </a></div>
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div> 
+        </div>
+      </nav>
+        <div class="sub-nav">
+                                <ul class="nav nav-tabs" style="padding-top:100px ;">
+                                <li class="active" > <b> ALL CATEGORIES <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 15px;"></b></i></li>
+                                    <li> Mobile Phone</li>
+                                    <li>Cars</li> 
+                                    <li>Motorcycles</li>
+                                    <li>Houses</li>
+                                    <li>TV - Video - Audio</li>
+                                    <li>Tablets</li>
+                                    <li>Land & Plots</li>
+                                </ul>
+                            </div>
+                            <div class="container-fluid" style="padding-bottom: 70px; margin-top: 40px;">
+                              <img src="img/Screenshot from 2021-04-04 11-04-09.png"  class="img-thumbnail" alt="Cinque Terre" width="1020px" height="300px" > 
+                            </div>
+                            <div class="container-fluid" style="background-color: #f7f8f8; padding: 20px;">
+                              <h5 style="color: rgb(0, 47, 52);"> Fresh recommendations</h5>
+                          </div>
+                         <div class="container" style="background-color: whitesmoke;">
+                           <div class="row">
+                             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                              <div class="card" style="width: 12rem;  padding: 10px;">
+                                <img src="img/pic-1 - Copy.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title"> Cabnet.100,000</h5>
+                                  <p class="card-text"> Product description provides customers with details around features.</p>
+                                 
+                                </div>
+                              </div>
+                             </div>
+                             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                              <div class="card" style="width: 12rem;  padding: 10px;">
+                                <img src="img/pic-2 - Copy.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Honda Bike:50,000</h5>
+                                  <p class="card-text">Product description provides customers with details around features.</p>
+                                 
+                                </div>
+                              </div>
+                             </div>   
+                             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                              <div class="card" style="width: 12rem;  padding: 10px;">
+                                <img src="img/pic-3 - Copy - Copy.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Eqiupment of Kitchen:10,000</h5>
+                                  <p class="card-text">Product description provides customers with details around features.</p>
+                                 
+                                </div>
+                              </div>
+                             </div> 
+                                  </div>                                           
+                            </div>  
+                            <div class="container"style="background-color: whitesmoke;">
+                              <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                 <div class="card" style="width: 12rem;  padding: 10px;">
+                                   <img src="img/pic-4.jpg" class="card-img-top" alt="...">
+                                   <div class="card-body">
+                                     <h5 class="card-title">Chingchi Rikshaw:30,000</h5>
+                                     <p class="card-text">Product description provides customers with details around features.</p>
+                                    
+                                   </div>
+                                 </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                 <div class="card" style="width: 12rem; height: 20rem; padding: 10px;">
+                                   <img src="img/pic-5 - Copy.jpg" class="card-img-top" alt="...">
+                                   <div class="card-body">
+                                     <h5 class="card-title">Altus new Car:200,000</h5>
+                                     <p class="card-text">Product description provides customers with details around features.</p>
+                                    
+                                   </div>
+                                 </div>
+                                </div>   
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                 <div class="card" style="width: 12rem;  padding: 10px">
+                                   <img src="img/pic-6 - Copy - Copy.jpg" class="card-img-top" alt="...">
+                                   <div class="card-body">
+                                     <h5 class="card-title">Bungalow: 800,000,000</h5>
+                                     <p class="card-text">Product description provides customers with details around features.</p>
+                                    
+                                   </div>
+                                 </div>
+                                </div> 
+                                     </div>                                           
+                               </div>  
+                               <div class="container"style="background-color: whitesmoke;">
+                                <div class="row">
+                                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                   <div class="card" style="width: 12rem;  padding: 10px;">
+                                     <img src="img/pic-7 - Copy.jpg" class="card-img-top" alt="...">
+                                     <div class="card-body">
+                                       <h5 class="card-title">Hp-5pro Laptop: 50,000</h5>
+                                       <p class="card-text">Product description provides customers with details around features.</p>
+                                      
+                                     </div>
+                                   </div>
+                                  </div>
+                                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                   <div class="card" style="width: 12rem; height: 20rem; margin-top: -5px; padding: 10px;">
+                                     <img  src="img/pic-8 - Copy.jpg" class="card-img-top" alt="...">
+                                     <div class="card-body">
+                                       <h5 class="card-title">Sindhi Karhai Design:15,00</h5>
+                                       <p class="card-text">Product description provides customers.</p>
+                                      
+                                     </div>
+                                   </div>
+                                  </div>   
+                                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                   <div class="card" style="width: 12rem;  height: 20re; height: 20rem; padding: 10px">
+                                     <img src="img/pic-9.jpg" class="card-img-top" alt="...">
+                                     <div class="card-body">
+                                       <h5 class="card-title">iPhon-i3pro:  100,000</h5>
+                                       <p class="card-text">Product description provides customers with details around features.</p>
+                                      
+                                     </div>
+                                   </div>
+                                  </div> 
+                                       </div>                                           
+                                 </div>                                                  
+                                 <div class="container"style="background-color: whitesmoke;">
+                                  <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                     <div class="card" style="width: 12rem;  padding: 10px;">
+                                       <img src="img/pic-10.jpg" class="card-img-top" alt="...">
+                                       <div class="card-body">
+                                         <h5 class="card-title">iPad-9-11: 600,000</h5>
+                                         <p class="card-text">Product description provides customers with details around features.</p>
+                                        
+                                       </div>
+                                     </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                     <div class="card" style="width: 12rem;  padding: 10px;">
+                                       <img src="img/pic-11.jpg" class="card-img-top" alt="...">
+                                       <div class="card-body">
+                                         <h5 class="card-title">Bike:50,000</h5>
+                                         <p class="card-text">Product description provides customers with details around features.</p>
+                                        
+                                       </div>
+                                     </div>
+                                    </div>   
+                                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                     <div class="card" style="width: 12rem; padding: 10px ">
+                                       <img src="img/pic-12.jpg" class="card-img-top" alt="...">
+                                       <div class="card-body">
+                                         <h5 class="card-title">Sofas:10,000</h5>
+                                         <p class="card-text">Product description provides customers with details around features.</p>
+                                        
+                                       </div>
+                                     </div>
+                                    </div> 
+                                         </div>                                           
+                                   </div>                                                  
+                                   <div class="container" style="background-color: whitesmoke;">
+                                    <div class="row">
+                                      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                       <div class="card" style="width: 12rem;  padding: 10px;">
+                                         <img src="img/pic-13.jpg" class="card-img-top" alt="...">
+                                         <div class="card-body">
+                                           <h5 class="card-title">Branded Dress:10,000</h5>
+                                           <p class="card-text">Product description provides customers with details around features.</p>
+                                         </div>
+                                       </div>
+                                      </div>
+                                           </div>                                           
+                                     </div>                                                  
+                                     <div class="container">
+                                     <button style=" margin-top:  15px; color: rgb(0, 47, 52); margin-left: 400px;" type="button" class="btn btn-outline-green">Lord More</button>
+                                  </div>
+                                  <div class="container-fluid" style="display: flex; margin-top: 30px;">
+                                    <img src="./img/adplx.png" width="480px" style="padding: 0px;"> 
+                                      <h6> <span> TRY THE OLX APP</span>  <br>
+                                        <br> <span style="font-size: 17px;"> Buy, sell and find just about <br> anything using the app on your <br> mobile.</span>
+                                           </h6>
+                                            
+                                           <ul style="list-style: none;">
+                                              <h5> <span style="font-size: 15px;"> GET YOUR APP TODAY</span></h5>
+                                        <li> <img src="img/app.png" alt=""></li>
+                                          <li> <img src="img/gpl.png" alt=""></li> 
+                                        </ul>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div class="container-fluid" style="background-color:rgba(128, 128, 128, 0.226) ; position: relative; margin-left: -5px; padding: 10px;" >
+                                  <div class="row">
+                                    <div class="col-lg-2 col-md-5 col-sm-3 col-xs-12">
+                                      <ul style="list-style: none; font-size:10px">
+                                        <li><h6>POPULAR CATEGORIES</h6></li>
+                                      <li>Cars</li>
+                                      <li>Flats for rent</li>
+                                      <li>Jobs</li>
+                                      <li>Mobile Phones</li>
+                                 </ul>
+
+                                    </div>
+                                    <div class="col-lg-2 col-md-5 col-sm-3 col-xs-12">
+                                      <ul style="list-style: none; font-size:10px;">
+                                          <li><h6>TRENDING SEARCHES</h6>
+                                        <li>Bikes</li>
+                                        <li>Watches</li>
+                                        <li>Books</li>
+                                        <li>Dogs</li>
+                                   </ul>
+
+                                    </div>
+                                    <div class="col-lg-2 col-md-5 col-sm-3 col-xs-12">
+                                      <ul style="list-style: none; font-size:10px;">
+                                        <li><h6>ABOUT US</h6></li>
+                                      <li>About OLX Group</li>
+                                      <li> Contact Us</li>
+                                      <li>OLX Blog</li>
+                                      <li>OLX for Businesses</li>
+                                    </ul>
+                                    </div>  
+                                    <div class="col-lg-2 col-md-5 col-sm-3 col-xs-12">
+                                      <ul style="list-style: none; font-size:10px;">
+                                        <li><h5>OLX</h5></li>
+                                        <li>Help</li>
+                                        <li>Sitemap</li>
+                                        <li> Legal & Privacy information</li>
+                                      </ul>
+
+                                    </div>  
+                                     
+                                  <div class="col-lg-2 col-md-5 col-sm-3 col-xs-12;">
+                                      <ul style="list-style: none; font-size:10px;">
+                                        <li ><h6>FOLLOW US</h6></li>
+                                      <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+                                      <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                                      <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                                      <li><i class="fa fa-play-circle-o" aria-hidden="true"></i></li>
+                                      <img src="img/app.png"  style="width: 80px;">
+                                      <img src="img/gpl.png" style="width: 80px;">
+                                    </ul>
+
+                                    </div>  
+                                  </div>
+                                  
+                                </div>
+                                <div class="container-fluid" style="background-color: #002f34; color: #f7f8f8;">
+                                  <div class="row" >
+                                    <div class=" col-md-5 col-sm-3 col-xs-12" style="padding: 10px;"></div>
+                                    <h6 style="margin-left: -10px; font-size: 12px;" > <b> Other Countries India</b> - South Africa - Indonesia</6>
+                                    <h6 style="margin-top: -20px; text-align: end; font-size: 12px;"><b>Free Classifieds in Pakistan.</b>© 2006-2021 OLX</h6>
+                                  </div>
+                                </div>
+                           
+                          
+                          
+</bod>
+</html> 
